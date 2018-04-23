@@ -3,7 +3,5 @@ package dogfight;
 public class Main {
 	
 	public String Yolo;
-	public int fpd;
-	public int toto;
-
+	public int test;
 }
