@@ -3,7 +3,7 @@ package jpu2016.dofight.controller;
 import jpu2016.dogfight.model.IDogfightModel;
 import jpu2016.dogfight.view.IViewSystem;
 
-public class DogfightController {
+public class DogfightController implements IOrderPerformer {
 	static int TIME_SLEEP = 30;
 	
 	public DogfightController(IDogfightModel dogfightModel){
