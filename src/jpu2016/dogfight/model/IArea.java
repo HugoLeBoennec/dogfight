@@ -8,7 +8,7 @@ public class IArea {
 		
 	}
 	public Image getImage() {
-		return new Dimension();
+		return new Image();
 		
 	}
 }
