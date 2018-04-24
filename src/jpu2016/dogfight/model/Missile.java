@@ -1,5 +1,7 @@
 package jpu2016.dogfight.model;
 
+import java.awt.*;
+
 public class Missile {
 	private static int SPEED = 4;
 	private static int WIDTH = 30;
@@ -12,9 +14,11 @@ public class Missile {
 		
 	}
 	public static int getWidthWithADirection(Direction direction) {
+		return 1;
 		
 	}
 	public static int getHeightWithADirection(Direction direction) {
+		return 1;
 		
 	}
 	public void move() {

@@ -13,12 +13,14 @@ public class Position {
 		
 	}
 	public double getX() {
+		return 1;
 		
 	}
 	public void setX(double x) {
 		
 	}
 	public double getY() {
+		return 1;
 		
 	}
 	public void setY(double y) {

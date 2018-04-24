@@ -1,5 +1,7 @@
 package jpu2016.dogfight.model;
 
+import java.awt.*;
+
 public class Cloud {
 	private static int SPEED = 1;
 	private static int WIDTH = 300;

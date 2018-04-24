@@ -10,9 +10,11 @@ public class Plane {
 		
 	}
 	public boolean isPlayer(int player) {
+		return true;
 		
 	}
 	public boolean hit() {
+		return true;
 		
 	}
 }
