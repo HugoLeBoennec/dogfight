@@ -8,7 +8,7 @@ public class DogfightModel {
 		
 	}
 	public IArea getArea() {
-		return new IArea();
+		return null;
 		
 	}
 	public void buildArea(Dimension dimension) {

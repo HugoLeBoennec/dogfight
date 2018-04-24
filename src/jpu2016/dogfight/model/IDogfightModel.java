@@ -3,29 +3,12 @@ package jpu2016.dogfight.model;
 import java.awt.*;
 import java.util.ArrayList;
 
-public class IDogfightModel {
-	public IArea getArea() {
-		return new IArea();
-		
-	}
-	public void buildArea(Dimension dimension) {
-		
-	}
-	public void addMobile(IMobile Mobile) {
-		
-	}
-	public void removeMobile(IMobile Mobile) {
-		
-	}
-	public ArrayList<IMobile> getMobiles(){
-		return new ArrayList<IMobile>();
-		
-	}
-	public IMobile getMobileByPlayer(int player){
-		return null;
-		
-	}
-	public void setMobilesHabesMoved() {
-		
-	}
+public interface IDogfightModel {
+	public IArea getArea();
+	public void buildArea(Dimension dimension);
+	public void addMobile(IMobile Mobile);
+	public void removeMobile(IMobile Mobile);
+	public ArrayList<IMobile> getMobiles();
+	public IMobile getMobileByPlayer(int player);
+	public void setMobilesHabesMoved();
 }

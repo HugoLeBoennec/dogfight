@@ -61,7 +61,7 @@ public class Mobile {
 		
 	}
 	public IDogfightModel getDogfightModel() {
-		return new IDogfightModel();
+		return null;
 		
 	}
 	public void setDogfightModel(IDogfightModel dogfightModel) {
