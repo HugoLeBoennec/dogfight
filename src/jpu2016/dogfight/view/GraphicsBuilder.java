@@ -1,14 +1,21 @@
 package jpu2016.dogfight.view;
 
+import java.awt.image.ImageObserver;
+
+import com.sun.prism.Graphics;
+
+import jpu2016.dogfight.model.IDogfightModel;
+import jpu2016.dogfight.model.IMobile;
+
 public class GraphicsBuilder {
 
 	
-	public GraphicsBuilder(dogfightModel IDogfightModel)
+	public GraphicsBuilder(IDogfightModel dogfightModel)
 	{
 		
 	}
 	
-	public void applyModelToGraphic(graphics Graphics, observer ImageObserver)
+	public void applyModelToGraphic(Graphics graphics, ImageObserver observer)
 	{
 			
 	}
@@ -19,7 +26,7 @@ public class GraphicsBuilder {
 		
 	}
 	
-	private void drawMobile(mobile IMobile, graphics Graphics, observer ImageObserver)
+	private void drawMobile(IMobile mobile, Graphics graphics, ImageObserver observer )
 	{
 		
 	}
