@@ -1,5 +1,11 @@
 package jpu2016.dofight.controller;
 
-public class Order {
+public enum Order {
 
+	UP,
+	RIGHT,
+	DOWN,
+	LEFT,
+	SHOOT,
+	NOP
 }
