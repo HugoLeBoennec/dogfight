@@ -1,6 +1,14 @@
 package jpu2016.dogfight.model;
 
-public class IArea {
+import java.awt.*;
 
-	
+public class IArea {
+	public Dimension getDimension() {
+		return new Dimension();
+		
+	}
+	public Image getImage() {
+		return new Image();
+		
+	}
 }
