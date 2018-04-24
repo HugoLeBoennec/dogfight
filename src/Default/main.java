@@ -5,7 +5,7 @@ import jpu2016.dogfight.view.DogfightView;
 
 public class main {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		// TODO Auto-generated method stub
 		final DogfightModel dogfightModel = new DogfightModel();
 		final DogfightController dogfightController = new DogfightController(dogfightModel);
