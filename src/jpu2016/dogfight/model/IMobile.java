@@ -3,10 +3,10 @@ package jpu2016.dogfight.model;
 import java.awt.*;
 
 public interface IMobile {
-	public Direction getDireciton();
+	public Direction getDirection();
 	public void setDirection(Direction direction);
-	public Point poigetPosition();
-	public Point getDimension();
+	public Point getPosition();
+	public Dimension getDimension();
 	public int getWidth();
 	public int getHeight();
 	public int getSpeed();

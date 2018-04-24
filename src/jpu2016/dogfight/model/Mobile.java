@@ -2,7 +2,7 @@ package jpu2016.dogfight.model;
 
 import java.awt.*;
 
-public class Mobile {
+public class Mobile implements IMobile {
 	private int speed;
 	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image) {
@@ -15,11 +15,12 @@ public class Mobile {
 	public void setDirection(Direction direction) {
 		
 	}
-	public Dimension getDimension() {
+	public Point getPosition() {
 		return null;
 		
 	}
-	public void setDimension(Dimension dimension) {
+	public Dimension getDimension() {
+		return null;
 		
 	}
 	public int getSpeed() {
@@ -64,7 +65,7 @@ public class Mobile {
 		return null;
 		
 	}
-	public void setDogfightModel(IDogfightModel dogfightModel) {
+	public void setDogfightModel(DogfightModel dogfightModel) {
 		
 	}
 	public boolean hit() {
