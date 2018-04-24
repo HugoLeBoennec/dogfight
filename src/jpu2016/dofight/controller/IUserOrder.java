@@ -1,13 +1,9 @@
 package jpu2016.dofight.controller;
 
-public class IUserOrder {
+public interface IUserOrder {
 	
-	public void getOrder() {
-		
-	}
+	public void getOrder();
 	
-	public int getPlayer() {
-		return UserOrder.player;
-	}
+	public int getPlayer();
 	
 }

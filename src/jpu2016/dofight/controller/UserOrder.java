@@ -1,6 +1,5 @@
 package jpu2016.dofight.controller;
-
-public class UserOrder {
+public class UserOrder implements IUserOrder {
 	private int player;
 	
 	UserOrder(int player, Order order){
