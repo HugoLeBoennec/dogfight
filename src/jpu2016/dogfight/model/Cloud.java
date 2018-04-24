@@ -8,6 +8,7 @@ public class Cloud {
 	private static int HEIGHT = 150;
 	private static String IMAGE = "cloud";
 	
+	
 	public Cloud(Direction direction, Dimension dimension) {
 		
 	}
