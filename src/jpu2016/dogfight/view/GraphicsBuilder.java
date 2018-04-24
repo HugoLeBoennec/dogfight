@@ -1,8 +1,8 @@
 package jpu2016.dogfight.view;
 
+import java.awt.Graphics;
 import java.awt.image.ImageObserver;
 
-import com.sun.prism.Graphics;
 
 import jpu2016.dogfight.model.IDogfightModel;
 import jpu2016.dogfight.model.IMobile;
