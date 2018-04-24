@@ -25,7 +25,7 @@ public class DogfightModel {
 	
 	}
 	public IMobile getMobileByPlayer(int player) {
-		return new IMobile();
+		return null ;
 		
 	}
 	public void setMobilesHavesMoved() {

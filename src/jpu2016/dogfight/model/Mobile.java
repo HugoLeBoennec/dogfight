@@ -9,14 +9,14 @@ public class Mobile {
 		
 	}
 	public Direction getDirection() {
-		return new Direction();
+		return null;
 		
 	}
 	public void setDirection(Direction direction) {
 		
 	}
 	public Dimension getDimension() {
-		return new Dimension();
+		return null;
 		
 	}
 	public void setDimension(Dimension dimension) {
@@ -57,7 +57,7 @@ public class Mobile {
 		
 	}
 	public Color getColor() {
-		return new Color();
+		return null;
 		
 	}
 	public IDogfightModel getDogfightModel() {
@@ -76,7 +76,7 @@ public class Mobile {
 		
 	}
 	public Image getImage() {
-		return new Image();
+		return null;
 		
 	}
 }

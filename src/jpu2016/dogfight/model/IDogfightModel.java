@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class IDogfightModel {
 	public IArea getArea() {
-		return new IArea;
+		return new IArea();
 		
 	}
 	public void buildArea(Dimension dimension) {
@@ -18,11 +18,11 @@ public class IDogfightModel {
 		
 	}
 	public ArrayList<IMobile> getMobiles(){
-		return new ArrayList<IMobile>;
+		return new ArrayList<IMobile>();
 		
 	}
 	public IMobile getMobileByPlayer(int player){
-		return new IMobile;
+		return null;
 		
 	}
 	public void setMobilesHabesMoved() {

@@ -7,11 +7,11 @@ public class Sky {
 		
 	}
 	public Dimension getDimension() {
-		return new Dimension();
+		return null;
 		
 	}
 	public Image getImage() {
-		return new Image();
+		return null;
 		
 	}
 }
